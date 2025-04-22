@@ -31,5 +31,5 @@ export type Task = {
   folderId?: string;
   reminder?: string;
   template?: boolean;
-  comments: Comment[];
+  comments?: Comment[];
 };
