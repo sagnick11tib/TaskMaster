@@ -1,0 +1,4 @@
+# Add Next.js cache to dockerignore to prevent caching issues
+.next/cache
+node_modules
+npm-debug.log

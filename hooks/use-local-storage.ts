@@ -9,7 +9,7 @@ export function useLocalStorage<T>(key: string, initialValue: any) {
   // Initialize with stored value
   useEffect(() => {
     try {
-      const item: any = window.localStorage.getItem(key);
+      const item = window.localStorage.getItem(key);
       if (item) {
         setStoredValue(JSON.parse(item));
       }
